@@ -1,0 +1,48 @@
+一丶编码环境
+环境:python 3.7
+
+二丶启动方式
+1.主程序
+a.命令行方式，第1个参数为文件路径：python run.py 文件路径
+e.g:
+python run.py D:\workspaces\TestPro\shopping_cart\test\test_data\case_A.txt
+
+b.直接修改run.py 35行中 filepath ，运行run.py
+
+2.自动测试所有用例
+
+直接python运行 auto_run_all_case.py
+
+三丶目录结构
+shopping_cart/
+|--log/
+|--test/
+|  |--test_case/
+|  |--test_data/
+|  |--test_report/
+|--libs/
+|  |--HTMLTestRunner3.py (python3版本生成测试报告)
+|  |--HTMLTestRunner.py (python2生成测试报告)
+|
+|--auto_run_all_case.py (自动测试所有用例)
+|--run.py (程序入口)
+|--config.py (配置信息)
+|--makelog.py (日志打印模块)
+|--shoppingcart.py (购物车类)
+|--warehouse.py (产品仓库类)
+|--products (已上架的产品)
+
+
+四丶自动化测试用例
+
+Case A : 题目用例，有促销，有优惠券
+Case B : 题目用例，无促销，无优惠券
+Case 3 : 促销信息与结算日期不在同一天，不享受促销优惠
+Case 4 : 没有促销活动，有优惠券，但优惠券过期
+Case 5 : 有促销活动，有优惠券，但优惠券过期
+Case 6 : 多个促销活动
+Case 7 : 多张优惠券，含过期
+Case 8 : 购物车没有商品
+# 信息异常时
+Case 9 : 促销信息不全，则此类产品不进行优惠
+Case 10 : 优惠券信息不全，此张优惠券无效

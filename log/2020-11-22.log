@@ -1,0 +1,118 @@
+2020-11-22 11:02:54,259 - shoppingcart.py[line:83] - ERROR: deal_coupons()_2014.3.2  200
+2020-11-22 11:02:54,260 - shoppingcart.py[line:84] - ERROR: Traceback (most recent call last):
+  File "D:\workspaces\TestPro\shopping_cart\shoppingcart.py", line 81, in deal_coupons
+    coupons_dic.setdefault(float(sum_pic), float(dis_pic))
+ValueError: could not convert string to float: 
+
+2020-11-22 11:02:54,260 - shoppingcart.py[line:83] - ERROR: deal_coupons()_2014.3.2  200
+2020-11-22 11:02:54,260 - shoppingcart.py[line:84] - ERROR: Traceback (most recent call last):
+  File "D:\workspaces\TestPro\shopping_cart\shoppingcart.py", line 81, in deal_coupons
+    coupons_dic.setdefault(float(sum_pic), float(dis_pic))
+ValueError: could not convert string to float: 
+
+2020-11-22 11:02:54,296 - shoppingcart.py[line:66] - ERROR: Traceback (most recent call last):
+  File "D:\workspaces\TestPro\shopping_cart\shoppingcart.py", line 63, in deal_discount
+    float(dis_rate.strip())]
+ValueError: could not convert string to float: 
+
+2020-11-22 11:02:54,296 - shoppingcart.py[line:66] - ERROR: Traceback (most recent call last):
+  File "D:\workspaces\TestPro\shopping_cart\shoppingcart.py", line 63, in deal_discount
+    float(dis_rate.strip())]
+ValueError: could not convert string to float: 
+
+2020-11-22 11:04:59,354 - shoppingcart.py[line:83] - ERROR: deal_coupons()_2014.3.2  200
+2020-11-22 11:04:59,355 - shoppingcart.py[line:84] - ERROR: Traceback (most recent call last):
+  File "D:\workspaces\TestPro\shopping_cart\shoppingcart.py", line 81, in deal_coupons
+    coupons_dic.setdefault(float(sum_pic), float(dis_pic))
+ValueError: could not convert string to float: 
+
+2020-11-22 11:04:59,355 - shoppingcart.py[line:83] - ERROR: deal_coupons()_2014.3.2  200
+2020-11-22 11:04:59,355 - shoppingcart.py[line:84] - ERROR: Traceback (most recent call last):
+  File "D:\workspaces\TestPro\shopping_cart\shoppingcart.py", line 81, in deal_coupons
+    coupons_dic.setdefault(float(sum_pic), float(dis_pic))
+ValueError: could not convert string to float: 
+
+2020-11-22 11:04:59,359 - shoppingcart.py[line:65] - ERROR: deal_discount()_2013.11.11 |  | 酒类
+2020-11-22 11:04:59,359 - shoppingcart.py[line:66] - ERROR: Traceback (most recent call last):
+  File "D:\workspaces\TestPro\shopping_cart\shoppingcart.py", line 63, in deal_discount
+    float(dis_rate.strip())]
+ValueError: could not convert string to float: 
+
+2020-11-22 11:04:59,359 - shoppingcart.py[line:65] - ERROR: deal_discount()_2013.11.11 |  | 酒类
+2020-11-22 11:04:59,359 - shoppingcart.py[line:66] - ERROR: Traceback (most recent call last):
+  File "D:\workspaces\TestPro\shopping_cart\shoppingcart.py", line 63, in deal_discount
+    float(dis_rate.strip())]
+ValueError: could not convert string to float: 
+
+2020-11-22 11:17:34,793 - shoppingcart.py[line:130] - ERROR: start_settlement()_12 * 啤酒 : 25.00
+2020-11-22 11:17:34,838 - shoppingcart.py[line:131] - ERROR: Traceback (most recent call last):
+  File "D:/workspaces/TestPro/shopping_cart\shoppingcart.py", line 126, in start_settlement
+    if cat_infos and self.compare_date(self.pay_date,cat_infos[0]) is 0:
+  File "D:/workspaces/TestPro/shopping_cart\shoppingcart.py", line 101, in compare_date
+    d1 = datetime.strptime(datea, '%Y.%m.%d')
+  File "D:\WorkTools\Python37\lib\_strptime.py", line 577, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+  File "D:\WorkTools\Python37\lib\_strptime.py", line 359, in _strptime
+    (data_string, format))
+ValueError: time data '' does not match format '%Y.%m.%d'
+
+2020-11-22 11:17:34,839 - shoppingcart.py[line:83] - ERROR: deal_coupons()_2014.3.2 1000 200
+2020-11-22 11:17:34,840 - shoppingcart.py[line:84] - ERROR: Traceback (most recent call last):
+  File "D:/workspaces/TestPro/shopping_cart\shoppingcart.py", line 80, in deal_coupons
+    if self.compare_date(cou_date, self.pay_date) is 1:
+  File "D:/workspaces/TestPro/shopping_cart\shoppingcart.py", line 102, in compare_date
+    d2 = datetime.strptime(dateb, '%Y.%m.%d')
+  File "D:\WorkTools\Python37\lib\_strptime.py", line 577, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+  File "D:\WorkTools\Python37\lib\_strptime.py", line 359, in _strptime
+    (data_string, format))
+ValueError: time data '' does not match format '%Y.%m.%d'
+
+2020-11-22 11:20:14,474 - shoppingcart.py[line:83] - ERROR: deal_coupons()_2014.3.2  200
+2020-11-22 11:20:14,475 - shoppingcart.py[line:84] - ERROR: Traceback (most recent call last):
+  File "D:\workspaces\TestPro\shopping_cart\shoppingcart.py", line 81, in deal_coupons
+    coupons_dic.setdefault(float(sum_pic), float(dis_pic))
+ValueError: could not convert string to float: 
+
+2020-11-22 11:20:14,476 - shoppingcart.py[line:83] - ERROR: deal_coupons()_2014.3.2  200
+2020-11-22 11:20:14,476 - shoppingcart.py[line:84] - ERROR: Traceback (most recent call last):
+  File "D:\workspaces\TestPro\shopping_cart\shoppingcart.py", line 81, in deal_coupons
+    coupons_dic.setdefault(float(sum_pic), float(dis_pic))
+ValueError: could not convert string to float: 
+
+2020-11-22 11:20:14,480 - shoppingcart.py[line:65] - ERROR: deal_discount()_2013.11.11 |  | 酒类
+2020-11-22 11:20:14,480 - shoppingcart.py[line:66] - ERROR: Traceback (most recent call last):
+  File "D:\workspaces\TestPro\shopping_cart\shoppingcart.py", line 63, in deal_discount
+    float(dis_rate.strip())]
+ValueError: could not convert string to float: 
+
+2020-11-22 11:20:14,480 - shoppingcart.py[line:65] - ERROR: deal_discount()_2013.11.11 |  | 酒类
+2020-11-22 11:20:14,480 - shoppingcart.py[line:66] - ERROR: Traceback (most recent call last):
+  File "D:\workspaces\TestPro\shopping_cart\shoppingcart.py", line 63, in deal_discount
+    float(dis_rate.strip())]
+ValueError: could not convert string to float: 
+
+2020-11-22 11:43:59,846 - shoppingcart.py[line:83] - ERROR: deal_coupons()_2014.3.2  200
+2020-11-22 11:43:59,846 - shoppingcart.py[line:84] - ERROR: Traceback (most recent call last):
+  File "D:\workspaces\TestPro\shopping_cart\shoppingcart.py", line 81, in deal_coupons
+    coupons_dic.setdefault(float(sum_pic), float(dis_pic))
+ValueError: could not convert string to float: 
+
+2020-11-22 11:43:59,847 - shoppingcart.py[line:83] - ERROR: deal_coupons()_2014.3.2  200
+2020-11-22 11:43:59,847 - shoppingcart.py[line:84] - ERROR: Traceback (most recent call last):
+  File "D:\workspaces\TestPro\shopping_cart\shoppingcart.py", line 81, in deal_coupons
+    coupons_dic.setdefault(float(sum_pic), float(dis_pic))
+ValueError: could not convert string to float: 
+
+2020-11-22 11:43:59,851 - shoppingcart.py[line:65] - ERROR: deal_discount()_2013.11.11 |  | 酒类
+2020-11-22 11:43:59,852 - shoppingcart.py[line:66] - ERROR: Traceback (most recent call last):
+  File "D:\workspaces\TestPro\shopping_cart\shoppingcart.py", line 63, in deal_discount
+    float(dis_rate.strip())]
+ValueError: could not convert string to float: 
+
+2020-11-22 11:43:59,852 - shoppingcart.py[line:65] - ERROR: deal_discount()_2013.11.11 |  | 酒类
+2020-11-22 11:43:59,852 - shoppingcart.py[line:66] - ERROR: Traceback (most recent call last):
+  File "D:\workspaces\TestPro\shopping_cart\shoppingcart.py", line 63, in deal_discount
+    float(dis_rate.strip())]
+ValueError: could not convert string to float: 
+
